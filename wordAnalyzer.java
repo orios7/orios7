@@ -88,8 +88,7 @@ public class wordAnalyzer {
         // sort used to sort the so ArrayList in descending order.
         Collections.sort(so, Collections.reverseOrder());
 
-        //LinkedHashSet to store sorted arrayList data.
-        //LinkedHashSet<String> set = new LinkedHashSet<String>();
+
         LinkedHashMap<String, Integer> set = new LinkedHashMap<>();
         HashMap<String, Integer> map = new HashMap <String, Integer>();
 
@@ -114,16 +113,14 @@ public class wordAnalyzer {
             //map.put((String) words, (Integer) sum);
 
             System.out.printf("%-10s %20s\n", words, sum);
-            //System.out.println(w + " " + s);
 
-            //System.out.println(s);
         }
-
+        //Prints out LinkedHashMap
         System.out.println("");
         System.out.println("");
         System.out.println("Pairs: " + set);
 
-        //System.out.println("SET: " + map);
+
 
         }
     }
