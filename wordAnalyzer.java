@@ -127,13 +127,11 @@ public class wordAnalyzer {
 class sortA implements Comparable<sortA> {
     String w;
     int c;
-
     sortA(int c, String w) {
         //sortarr(int c) {
         this.c = c;
         this.w = w;
     }
-
     @Override
     public int compareTo(sortA obj) {
         if (this.c > obj.c)
