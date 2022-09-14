@@ -120,8 +120,6 @@ public class wordAnalyzer {
         System.out.println("");
         System.out.println("Pairs: " + set);
 
-
-
         }
     }
 
