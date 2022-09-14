@@ -144,4 +144,3 @@ class sortA implements Comparable<sortA> {
     }
 
 }
-
